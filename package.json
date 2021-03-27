@@ -1,0 +1,11 @@
+{
+ 
+    "name": "com.kompotentertainment.unityessentials",
+    "version": "0.1.0",
+    "displayName": "Unity Essentials",
+    "description": "Essential tools for any Unity project - extention methods, object pooling etc.",
+    "unity": "2020.1",
+    "dependencies": {},
+    "keywords": [ "objectpooling", "extensions" ],
+    "author": { "name": "Kompot Entertainment" }
+}
