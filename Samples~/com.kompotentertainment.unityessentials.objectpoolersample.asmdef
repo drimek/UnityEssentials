@@ -1,0 +1,15 @@
+{
+    "name": "com.kompotentertainment.unityessentials.objectpoolersample",
+    "references": [
+        "GUID:5dc4332a7f8812141ace9d6953dc33fb"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

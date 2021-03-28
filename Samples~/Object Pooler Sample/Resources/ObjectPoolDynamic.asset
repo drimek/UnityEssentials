@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ObjectPoolDynamic
   m_EditorClassIdentifier: 
   isDynamic: 1
-  _tag: ball
+  _tag: green ball
   _size: 1
   _prefab: {fileID: 2981222264504039785, guid: 3cbdd6b9c8ec22f46899c9c16f79180c, type: 3}
   _instantiationPerFrame: 1

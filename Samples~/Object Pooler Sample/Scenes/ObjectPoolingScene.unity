@@ -153,8 +153,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _tags:
-  - ball
-  - ball2
+  - green ball
+  - red ball
   _force: 1000
   _freq: 0.1
 --- !u!4 &473673183
