@@ -23,7 +23,7 @@ namespace UnityEssentials
         {
             original.x = -original.x;
             original.y = -original.y;
-            original.z = -original.y;
+            original.z = -original.z;
             return original;
         }
 
