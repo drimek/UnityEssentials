@@ -26,7 +26,7 @@ namespace UnityEssentials
             return original;
         }
 
-        public static Vector2 RandomPointInRange(this Vector2 original, float range)
+    public static Vector2 RandomPointInRange(this Vector2 original, float range)
         {
             return original + UnityEngine.Random.insideUnitCircle * range;
         }

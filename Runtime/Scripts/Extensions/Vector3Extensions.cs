@@ -12,19 +12,25 @@ namespace UnityEssentials
 
         public static Vector3 With(this Vector3 original, float? x = null, float? y = null, float? z = null)
         {
-            original.x = x ?? original.x;
-            original.y = y ?? original.y;
-            original.z = z ?? original.z;
+            var result = original;
+            result.x = x ?? original.x;
+            result.y = y ?? original.y;
+            result.z = z ?? original.z;
 
-            return original;
+            return result;
         }
 
         public static Vector3 Reverse(this Vector3 original)
         {
-            original.x = -original.x;
-            original.y = -original.y;
-            original.z = -original.z;
-            return original;
+            var result = original;
+            result.x = -original.x;
+            result.y = -original.y;
+            result.z = -original.z;
+            return result;
+        }
+        public static bool IsWithinRangeOf(this Vector3 vector, Vector3 point, float range = 0)
+        {
+            return Vector3.Distance(vector, point) <= range;
         }
 
         public static Vector3 RandomPointInRange(this Vector3 original,float range)
