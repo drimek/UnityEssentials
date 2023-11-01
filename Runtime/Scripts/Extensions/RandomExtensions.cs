@@ -23,7 +23,7 @@ namespace  UnityEssentials
         }
 
 
-        public static double NextGaussianDouble(this Random r, double mean = 0, double standardDeviation = 1)
+        public static double NextGaussian(this Random r, double mean = 0, double standardDeviation = 1)
         {
             double u, v, S;
 

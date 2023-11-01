@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 
-namespace RTSCore
+namespace UnityEssentials
 {
     [Serializable]
     public struct ClockTime : IComparable<ClockTime>, IEquatable<ClockTime>

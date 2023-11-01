@@ -56,7 +56,7 @@ namespace UnityEssentials{
         }
         public static T GetRandomElementInNormalDistribution<T>(this IList<T> list, System.Random r, double mean = 0, double standardDeviation = 1)
         {
-            var next = r.NextGaussianDouble(mean: mean, standardDeviation: standardDeviation);
+            var next = r.NextGaussian(mean: mean, standardDeviation: standardDeviation);
 
             double length = (float)standardDeviation * 3f * 2f;
             double halfLength = length / 2f;
