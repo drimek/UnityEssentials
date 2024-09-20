@@ -50,12 +50,12 @@ namespace UnityEssentials
         
         public static Vector3 DirectionTo(this Vector3 original, Transform target)
         {
-            return (target.positon - original).normalized;
+            return (target.position - original).normalized;
         }
         
         public static Vector3 DirectionTo(this Vector3 original, GameObject target)
         {
-            return (target.transform.positon - original).normalized;
+            return (target.transform.position - original).normalized;
         }
         
     }
