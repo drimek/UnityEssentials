@@ -43,5 +43,20 @@ namespace UnityEssentials
             return ((original + UnityEngine.Random.insideUnitSphere)-original).normalized;
         }
 
+        public static Vector3 DirectionTo(this Vector3 original, Vector3 target)
+        {
+            return (target - original).normalized;
+        }
+        
+        public static Vector3 DirectionTo(this Vector3 original, Transform target)
+        {
+            return (target.positon - original).normalized;
+        }
+        
+        public static Vector3 DirectionTo(this Vector3 original, GameObject target)
+        {
+            return (target.transform.positon - original).normalized;
+        }
+        
     }
 }
