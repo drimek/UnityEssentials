@@ -16,14 +16,14 @@ namespace UnityEssentials
             return Vector3.Dot(toMain, who.forward) < 0;
         }
 
-        public static Vector3 DirectionTowards(this Transform original, Transform where)
+        public static Vector3 DirectionTo(this Transform original, Transform target)
         {
-            return (where.position - original.position).normalized;
+            return (target.position - original.position).normalized;
         }
 
-        public static Vector3 DirectionTowards(this Transform original, Vector3 where)
+        public static Vector3 DirectionTo(this Transform original, Vector3 target)
         {
-            return (where - original.position).normalized;
+            return (target - original.position).normalized;
         }
     }
 
