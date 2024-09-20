@@ -1,7 +1,7 @@
 {
 
   "name": "com.kompotentertainment.unityessentials",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "displayName": "Unity Essentials",
   "description": "Essential tools for any Unity project - extention methods, object pooling etc.",
   "unity": "2020.1",
