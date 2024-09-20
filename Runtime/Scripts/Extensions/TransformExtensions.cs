@@ -11,7 +11,7 @@ namespace UnityEssentials
 
         public static bool IsBehind(this Transform main, Transform who)
         {
-            var toMain = who.DirectionTowards(main);
+            var toMain = who.DirectionTo(main);
 
             return Vector3.Dot(toMain, who.forward) < 0;
         }
